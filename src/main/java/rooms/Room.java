@@ -13,6 +13,10 @@ public abstract class Room {
         guestList = new ArrayList<>();
     }
 
+    protected Room() {
+        guestList = new ArrayList<>();
+    }
+
     public int getCapacity() {
         return capacity;
     }
