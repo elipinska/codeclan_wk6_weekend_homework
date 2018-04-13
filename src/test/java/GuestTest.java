@@ -21,7 +21,7 @@ public class GuestTest {
     }
 
     @Test
-    public void guestHaswallet() {
+    public void guestHasWallet() {
 
         assertEquals(200.50, guest1.getWallet(), 0.01);
     }
